@@ -1,0 +1,142 @@
+*{padding:0; margin:0}
+body{
+    font-family: "Microsoft Yahei";
+    background-color: beige;
+    background-attachment:fixed;
+}
+#hd-con1{
+    width:100%;
+    height:120px;
+    background-image: url(../images/1.jpg);
+    background-size:cover;
+    padding:0;
+}
+#con1-text1{
+    color:#fff;
+    text-align: left;
+    font-size: 30px;
+    line-height: 80px;
+    font-family: "Microsoft Yahei";
+    position: relative;
+    left:150px;
+}
+
+ul,li{
+    list-style: none;
+}
+#hd-con2{
+    width:100%;
+    height:41px;
+    background: #303033af;
+    z-index:9999;
+    position:absolute;
+    top:80px;
+}
+.one{
+    width:1200px;
+    height:41px;
+    margin:0 auto;
+}
+.one li{
+    float: left;
+    height:41px;
+    width: 14.285714%;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    line-height:41px;
+    position:relative;
+}
+.one li a{
+    color: white;
+}
+.one>li:hover{
+    background: #4e4c44e7;
+} 
+.two{
+    display: none;
+} 
+.one li:hover .two{
+    display: block;
+}
+.two li{
+    height:35px; 
+    width:100%;
+    line-height:35px;
+    text-align:left;
+    font-size:14px;
+    font-family: "Microsoft Yahei";
+    opacity: 0.9;
+    z-index:9999;
+    background: #4e4c44e7;
+}
+.two a{
+    padding:0 0 0 10px;
+    width:100%;
+}
+.two>li:hover{
+    background: #4e4c44;
+} 
+a{
+    text-decoration-line: none;
+}
+
+
+
+
+.con-1{
+    width:1000px;
+    height:1100px;
+    margin:0 auto;
+    background-color: #c2c0ba4f;
+    position: relative;
+    top:20px;
+}
+#con-title{
+    width:1000px;
+    height:40px;
+    margin:0 auto;
+    background-color: #5c554281;
+}
+#title{
+    color:#fff;
+    font-size:20px;
+    line-height:40px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+}
+
+p{
+    width:880px;
+    font-size:14px;
+    font-family: "Microsoft Yahei";
+    line-height:30px;
+    text-align: justify;
+    text-indent:25px;
+    padding:0 5 0 0 ;
+    position: relative;
+    left:25px;
+    top:10px;
+}
+
+.con-2{
+    width:1000px;
+    height:1220px;
+    margin:0 auto;
+    background-color: #c2c0ba4f;
+    position: relative;
+    top:40px;
+}
+
+.con-3{
+    width:1000px;
+    height:300px;
+    margin:0 auto;
+    background-color: #c2c0ba4f;
+    position: relative;
+    top:60px;
+}
+name{
+    font-size:15px;
+    font-weight: bolder;
+}

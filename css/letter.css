@@ -1,0 +1,157 @@
+*{padding:0; margin:0}
+body{
+    font-family: "Microsoft Yahei";
+    background-attachment:fixed;
+}
+#hd-con1{
+    width:100%;
+    height:120px;
+    background-image: url(../images/1.jpg);
+    background-size:cover;
+    padding:0;
+}
+#con1-text1{
+    color:#fff;
+    text-align: left;
+    font-size: 30px;
+    line-height: 80px;
+    font-family: "Microsoft Yahei";
+    position: relative;
+    left:150px;
+}
+
+ul,li{
+    list-style: none;
+}
+#hd-con2{
+    width:100%;
+    height:41px;
+    background: #303033af;
+    z-index:9999;
+    position:absolute;
+    top:80px;
+}
+.one{
+    width:1200px;
+    height:41px;
+    margin:0 auto;
+}
+.one li{
+    float: left;
+    height:41px;
+    width: 14.285714%;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    line-height:41px;
+    position:relative;
+}
+.one li a{
+    color: white;
+}
+.one>li:hover{
+    background: #4e4c44e7;
+}  
+
+
+
+.two{
+    display: none;
+} 
+.one li:hover .two{
+    display: block;
+}
+.two li{
+    height:35px; 
+    width:100%;
+    line-height:35px;
+    text-align:left;
+    font-size:14px;
+    font-family: "Microsoft Yahei";
+    opacity: 0.9;
+    z-index:9999;
+    background: #4e4c44e7;
+}
+.two a{
+    padding:0 0 0 10px;
+    width:100%;
+}
+.two>li:hover{
+    background: #4e4c44;
+} 
+a{
+    text-decoration-line: none;
+}
+.con-1{
+    width:1000px;
+    height:1220px;
+    margin:0 auto;
+    background-color: #c2c0ba4f;
+    position: relative;
+    top:20px;
+    border-bottom:solid 6px #635c4ad3;
+}
+#header{
+    width:1000px;
+    height:80px;
+    margin:0 auto;
+    color:#fff;
+    font-size:20px;
+    line-height:80px;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+    background-color: #5c554281;
+    
+}
+p{
+    width:880px;
+    font-size:14px;
+    font-family: "Microsoft Yahei";
+    line-height:30px;
+    text-align: justify;
+    text-indent:25px;
+    padding:0 5 0 0 ;
+    position: relative;
+    left:25px;
+    top:10px;
+}
+#last-1{
+    font-size:14px;
+    font-family: "Microsoft Yahei";
+    text-align: right;
+    position: relative;
+    right:40px;
+    top:10px;
+}
+#last-2{
+    font-size:14px;
+    font-family: "Microsoft Yahei";
+    text-align: right;
+    position: relative;
+    right:40px;
+    top:20px;
+}
+#letter-img1{
+    width:300px;
+    height:200px;
+    float:left;
+    position: relative;
+    left:20px;
+    top:45px;
+}
+#letter-img2{
+    width:300px;
+    height:200px;
+    float:left;
+    position: relative;
+    left:35px;
+    top:45px;
+}
+#letter-img3{
+    width:300px;
+    height:200px;
+    float:left;
+    position: relative;
+    left:50px;
+    top:45px;
+}

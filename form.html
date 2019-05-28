@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script language="javascript">
+        function sumbit_form(){
+        var gnl=confirm("提交成功");
+        return true;
+        }
+    </script>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="header">
+                <div id="hd-con1"><p id="con1-text1">浪漫骑士——王小波</p></div>
+                <div id="hd-con2">
+                    <div id="ul1-div">
+                    <ul class="one">
+                                <li><a href="main.html">首页</a></li>
+                                <li>
+                                    <a href="introduction.html#rwjj">个人简介</a>
+                                    <ul class="two">
+                                        <li><a href="introduction.html#rwjj">人物经历</a></li>
+                                        <li><a href="introduction.html#cztd">创作特点</a></li>
+                                        <li><a href="introduction.html#rwpj">人物评价</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="mainworks.html">主要作品</a></li>
+                                <li>
+                                    <a href="book1.html">经典段落集锦</a>
+                                    <ul class="two">
+                                            <li><a href="book1.html">黄金时代</a></li>
+                                            <li><a href="book2.html">沉默的大多数</a></li>
+                                            <li><a href="book3.html">爱你就像爱生命</a></li>   
+                                        </ul>
+                                </li>
+                                <li>
+                                    <a href="page1.html">作品评价</a>
+                                    <ul class="two">
+                                        <li class="special"><a href="page1.html">诗意与浪漫的结合体 </a></li>
+                                        <li><a href="page2.html">颠覆伤痕文学</a></li>
+                                        <li><a href="page3.html">此处为你留白</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="letter.html">爱人李银河</a>
+                                    <ul class="two">
+                                        <li><a href="letter.html">写给王小波-2018</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="form.html">关于网站</a></li>
+                            </ul>   
+                        </div>
+                </div>
+    </div>
+    <div class="contain-1">
+        <table id="table1">
+            <tr id="tb1-tr1">
+                <td id="tb1-tr1-td">网站访问者您好：<br>为帮助网站更好的设计与维护，我希望收集您的网站参观感受，以及对网站内容的相关建议，在此对您的支持表示由衷的感谢！</td>
+            </tr>
+        </table>
+        <form name="input" action="main.html" onsubmit="return sumbit_form()" method="post">
+            <table id="table2">
+                <tr id="tb2-tr1">
+                    <td>
+                        <div id="title2">用户信息收集</div><br>
+                        </td>
+                </tr>
+                <tr id="row">
+                    <td>
+                        <ul id="ul2">
+                            <li id="li2">
+                                <lable>姓名</lable>
+                                <span id="span-name"><input type="text" name="name" size="20" value=""></span>
+                            </li>
+                            <li id="li2">
+                                <lable>手机号码</lable>
+                                <span id="span-phone"><input type="text" name="phone" size="20" value=""></span>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr id="tb2-tr2">
+                    <td>
+                        <table id="tb2-tr2-tb">
+                            <tr id="title-a">
+                                <td>
+                                    <p id="p1">*</p>
+                                    <p id="p2">您对网站整体满意度如何？</p>
+                                </td>
+                            </tr>
+                             <tr>
+                                 <td>
+                                    <ul id="ul1">
+                                        <li id="li1"><input type="radio" name="satisifaction" value="非常满意">非常满意</li>
+                                        <li id="li1"><input type="radio" name="satisifaction" value="满意">满意</li>
+                                        <li id="li1"><input type="radio" name="satisifaction" value="一般">一般</li>
+                                        <li id="li1"><input type="radio" name="satisifaction" value="不满意">不满意</li>
+                                        <li id="li1"><input type="radio" name="satisifaction" value="非常不满意">非常不满意</li>
+                                    </ul>
+                                 </td>
+                                 </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr id="tb2-tr3">
+                        <td >
+                            <table id="tb2-tr3-tb">
+                                <tr id="title-b"><td><p id="p3">您对网站有什么想法，请大声说出来吧！（例如：哪里有问题，哪些内容不够全面等）</p></td></tr>
+                                <tr ><td><textarea id="textBox" name="comments"></textarea></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                               
+                            </table>
+                        </td>
+                    </tr>
+                    <tr id="tb2-tr4">
+                        <td>
+                            <table id="tb2-tr4-tb">
+                                <tr><td><input type="submit" name="btn" class="ui-button" value="提交"> </td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br><br>
+        </div>
+</body>
+</html>
