@@ -50,7 +50,6 @@ body{
 .one>li:hover{
     background: #4e4c44e7;
 }  
-
 .two{
     list-style: none;
     display: none;
@@ -79,7 +78,6 @@ body{
 a{
     text-decoration-line: none;
 }
-
 .contain-1{
     width:100%;
     height:145px;
